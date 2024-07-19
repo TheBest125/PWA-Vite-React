@@ -30,17 +30,17 @@ function App() {
       </div>
       
       <div className="card">
-        <a className="center" href="https://github.com/MengLinMaker/PWA-Vite-React-Boilerplate" target="_blank">
+        <a className="center" href="https://github.com/TheBest125/PWA-Vite-React" target="_blank">
           <button className="credits">
             <img src={githubLogo} className="logo github" alt="Vite logo" />
-            <p>Meng Lin Maker</p>
+            <p>PWA Maker</p>
           </button>
         </a>
         
         <h1>
-          <a href="https://github.com/MengLinMaker/PWA-Vite-React-Boilerplate/generate" target="_blank">
+          {/* <a href="https://github.com/TheBest125/PWA-Vite-React/generate" target="_blank">
             <button> Use This Boilerplate </button>
-          </a>
+          </a> */}
         </h1>
       </div>
 

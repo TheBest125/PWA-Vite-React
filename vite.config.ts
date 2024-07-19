@@ -8,10 +8,14 @@ let faviconURL = '/favicon.svg'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    host: '0.0.0.0', // Bind to all network interfaces
+  },
   plugins: [
     react(),
     VitePWA({
       includeAssets: [faviconURL],
+      registerType: 'autoUpdate',
       manifest: {
         theme_color: '#ffffff',
         icons: [
